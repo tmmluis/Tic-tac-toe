@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+    <title>Tic-tac-toe</title>
+    <link rel="stylesheet" href="tictactoe.css">
+  </head>
+  <body>
+
+    <div class="splash">
+      <div class="menu">
+        <p>Let's play some Tic-tac-toe! Choose your mark:</p>
+        <p>(X goes first)</p>
+        <button type="button" data-mark="X">X</button>
+        <button type="button" data-mark="O">O</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <table>
+        <tr class="top-row">
+          <td class="left 0" data-cell="0"></td>
+          <td class="mid 1" data-cell="1"></td>
+          <td class="right 2" data-cell="2"></td>
+        </tr>
+        <tr class="mid-row">
+          <td class="left 3" data-cell="3"></td>
+          <td class="mid 4" data-cell="4"></td>
+          <td class="right 5" data-cell="5"></td>
+        </tr>
+        <tr class="bot-row">
+          <td class="left 6" data-cell="6"></td>
+          <td class="mid 7" data-cell="7"></td>
+          <td class="right 8" data-cell="8"></td>
+        </tr>
+      </table>
+      <p class="score"></p>
+    </div>
+
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
